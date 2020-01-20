@@ -1,0 +1,80 @@
+@font-face{
+    src:url(font/Uniman-Bold.ttf);
+    font-family: 'uniman';
+}
+body {
+    background: url(mask.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.head{
+    font-family: 'uniman';
+    font-size: 20px;
+    margin: 20px 0px 0px 20px;
+    color:whitesmoke;    
+    font-weight: initial;
+}
+.buttons{
+    font-family: 'uniman';
+    word-spacing: 5em;
+    color: whitesmoke;
+    font-size: 18px;
+    margin:20px 510px 0px 60px;
+}
+.b1{
+    text-decoration: none;
+    color: whitesmoke;  
+}
+A:link { color:whitesmoke; 
+     text-decoration: none;
+     font-weight: normal 
+    }
+A:hover { color:#fc503c ;
+      text-decoration: none;
+      font-weight: none
+     }
+.big_typography{
+    font-family: 'uniman';
+    font-size: 80px;
+    font-weight: normal;
+    margin:150px 300px 0px 300px;
+    color: whitesmoke;
+}
+.small_typography{
+    font-family: 'Blinker', sans-serif;
+    font-size: 63.5px;
+    font-weight: lighter;
+    margin:0px 300px 0px 300px;
+    color: whitesmoke;
+}
+.km{
+    font-family: 'uniman';
+    margin: 0px 300px 0px 640px;
+}
+img{
+    width: 10%;
+    height: 10%;
+    margin: 0px 0px 0px 50px;
+    clear: right;
+    float: left;
+}
+.info{
+    background-color:whitesmoke;
+    width:300px;
+    height: 130px;
+    padding: 20px 20px 20px 20px;/*clockwise from top*/
+    margin-left: 20px;
+}
+h2{
+    font-family: 'uniman';
+    font-size: 20px;
+    margin-left: 20px;
+}
+.txt{
+    font-family: 'uniman';
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
